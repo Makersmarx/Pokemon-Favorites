@@ -1,0 +1,41 @@
+body {
+  background-color: #b3a125;
+}
+
+img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+header {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffde00;
+  color: #3b4cca;
+}
+
+.container {
+  margin: 135px;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.name {
+  margin-left: 76px;
+}
+
+.pokemon {
+  transform: scale(1, 1);
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.5, 1.5);
+    color: #3b4cca;
+    z-index: 1;
+  }
+}
